@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <footer className="bg-muted border-t border-border mt-20">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center">
@@ -40,10 +40,23 @@ export const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li>contact@bytwave.com</li>
-              <li>+1 (555) 123-4567</li>
-              <li>123 Tech Street, Suite 100</li>
-              <li>San Francisco, CA 94105</li>
+              <li>georgekoikai922@gmail.com</li>
+              <li>bytewave25@gmail.com</li>
+              <li>+254-706-312-266</li>
+              <li>+254-113-480-651</li>
+              <li>Kenyatta Avenue</li>
+              <li>Highway Towers Plaza, Nakuru</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-semibold mb-4">Business Hours</h3>
+            <ul className="space-y-2 text-muted-foreground">
+              <li>Monday - Friday</li>
+              <li className="font-medium">8:00 AM - 6:00 PM</li>
+              <li className="mt-3">Saturday</li>
+              <li className="font-medium">9:00 AM - 4:00 PM</li>
+              <li className="mt-3">Sunday: Closed</li>
             </ul>
           </div>
         </div>
