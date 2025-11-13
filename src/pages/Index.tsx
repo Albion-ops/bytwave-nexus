@@ -113,22 +113,33 @@ const Index = () => {
                 </div>
                 <CardTitle>CCTV Installation</CardTitle>
                 <CardDescription>
-                  Professional security camera systems installation and maintenance
+                  Comprehensive security solutions with cutting-edge surveillance technology
                 </CardDescription>
               </CardHeader>
               <CardContent>
+                <p className="text-sm mb-3">
+                  Protect your property with professional-grade security systems tailored to your needs.
+                </p>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li className="flex items-center">
-                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary" />
-                    HD & 4K Cameras
+                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary flex-shrink-0" />
+                    <span>HD & 4K crystal-clear footage for maximum detail</span>
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary" />
-                    Remote Monitoring
+                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary flex-shrink-0" />
+                    <span>Remote monitoring from anywhere via mobile app</span>
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary" />
-                    24/7 Support
+                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary flex-shrink-0" />
+                    <span>Night vision & motion detection technology</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary flex-shrink-0" />
+                    <span>Cloud & local storage options available</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary flex-shrink-0" />
+                    <span>Professional installation & 24/7 technical support</span>
                   </li>
                 </ul>
               </CardContent>
@@ -141,22 +152,33 @@ const Index = () => {
                 </div>
                 <CardTitle>Hardware Supply</CardTitle>
                 <CardDescription>
-                  Quality computer hardware and networking equipment
+                  Premium computer hardware and networking solutions for businesses
                 </CardDescription>
               </CardHeader>
               <CardContent>
+                <p className="text-sm mb-3">
+                  Access genuine, high-performance technology from trusted brands at competitive prices.
+                </p>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li className="flex items-center">
-                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary" />
-                    Latest Technology
+                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary flex-shrink-0" />
+                    <span>Latest generation processors, servers & workstations</span>
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary" />
-                    Competitive Pricing
+                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary flex-shrink-0" />
+                    <span>Enterprise-grade networking equipment & switches</span>
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary" />
-                    Warranty Support
+                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary flex-shrink-0" />
+                    <span>Bulk pricing discounts for large orders</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary flex-shrink-0" />
+                    <span>Genuine products with full manufacturer warranty</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary flex-shrink-0" />
+                    <span>Free technical consultation & setup assistance</span>
                   </li>
                 </ul>
               </CardContent>
@@ -169,22 +191,33 @@ const Index = () => {
                 </div>
                 <CardTitle>Software Solutions</CardTitle>
                 <CardDescription>
-                  Custom software development and maintenance services
+                  Tailored software development, integration, and maintenance
                 </CardDescription>
               </CardHeader>
               <CardContent>
+                <p className="text-sm mb-3">
+                  Transform your business with custom software designed specifically for your workflow and objectives.
+                </p>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li className="flex items-center">
-                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary" />
-                    Custom Development
+                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary flex-shrink-0" />
+                    <span>Bespoke applications built to your specifications</span>
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary" />
-                    System Integration
+                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary flex-shrink-0" />
+                    <span>Seamless integration with existing systems</span>
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary" />
-                    Ongoing Maintenance
+                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary flex-shrink-0" />
+                    <span>Mobile & web application development</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary flex-shrink-0" />
+                    <span>Regular updates & security patches included</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary flex-shrink-0" />
+                    <span>Dedicated support team & training sessions</span>
                   </li>
                 </ul>
               </CardContent>
@@ -197,22 +230,33 @@ const Index = () => {
                 </div>
                 <CardTitle>POS Systems</CardTitle>
                 <CardDescription>
-                  Modern point of sale systems for retail businesses
+                  Advanced point of sale systems to streamline your retail operations
                 </CardDescription>
               </CardHeader>
               <CardContent>
+                <p className="text-sm mb-3">
+                  Boost sales efficiency and gain valuable insights with our modern, easy-to-use POS solutions.
+                </p>
                 <ul className="space-y-2 text-sm text-muted-foreground">
                   <li className="flex items-center">
-                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary" />
-                    Cloud-Based
+                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary flex-shrink-0" />
+                    <span>Cloud-based system accessible from anywhere</span>
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary" />
-                    Inventory Management
+                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary flex-shrink-0" />
+                    <span>Real-time inventory tracking & low stock alerts</span>
                   </li>
                   <li className="flex items-center">
-                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary" />
-                    Analytics Dashboard
+                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary flex-shrink-0" />
+                    <span>Comprehensive sales reports & analytics dashboard</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary flex-shrink-0" />
+                    <span>Multi-payment support including M-Pesa integration</span>
+                  </li>
+                  <li className="flex items-center">
+                    <CheckCircle2 className="h-4 w-4 mr-2 text-primary flex-shrink-0" />
+                    <span>Staff management & performance tracking tools</span>
                   </li>
                 </ul>
               </CardContent>
