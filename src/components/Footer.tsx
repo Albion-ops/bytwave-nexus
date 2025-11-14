@@ -40,7 +40,6 @@ export const Footer = () => {
           <div>
             <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-muted-foreground">
-              <li>georgekoikai922@gmail.com</li>
               <li>bytewave25@gmail.com</li>
               <li>+254-706-312-266</li>
               <li>+254-113-480-651</li>
