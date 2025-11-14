@@ -59,6 +59,50 @@ export default function Dashboard() {
     return () => subscription.unsubscribe();
   }, [navigate]);
 
+  // Real-time subscriptions for analytics updates
+  useEffect(() => {
+    if (!isAdmin) return;
+
+    // Subscribe to service_requests changes
+    const requestsChannel = supabase
+      .channel('service_requests_changes')
+      .on(
+        'postgres_changes',
+        {
+          event: '*',
+          schema: 'public',
+          table: 'service_requests'
+        },
+        (payload) => {
+          console.log('Service requests changed:', payload);
+          fetchAnalyticsData();
+        }
+      )
+      .subscribe();
+
+    // Subscribe to clients changes
+    const clientsChannel = supabase
+      .channel('clients_changes')
+      .on(
+        'postgres_changes',
+        {
+          event: '*',
+          schema: 'public',
+          table: 'clients'
+        },
+        (payload) => {
+          console.log('Clients changed:', payload);
+          fetchAnalyticsData();
+        }
+      )
+      .subscribe();
+
+    return () => {
+      supabase.removeChannel(requestsChannel);
+      supabase.removeChannel(clientsChannel);
+    };
+  }, [isAdmin]);
+
   const fetchAnalyticsData = async () => {
     try {
       // Fetch service requests
