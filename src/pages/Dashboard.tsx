@@ -12,6 +12,9 @@ import {
   LineChart, Line, AreaChart, Area, BarChart as RechartsBarChart, Bar, 
   PieChart, Pie, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer 
 } from "recharts";
+import { ServicesManagement } from "@/components/admin/ServicesManagement";
+import { ClientsManagement } from "@/components/admin/ClientsManagement";
+import { RequestsManagement } from "@/components/admin/RequestsManagement";
 
 export default function Dashboard() {
   const navigate = useNavigate();
@@ -471,39 +474,15 @@ export default function Dashboard() {
               </TabsContent>
 
               <TabsContent value="services">
-                <Card className="shadow-card">
-                  <CardHeader>
-                    <CardTitle>Services Management</CardTitle>
-                    <CardDescription>Manage your service offerings</CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-muted-foreground">Service management interface coming soon...</p>
-                  </CardContent>
-                </Card>
+                <ServicesManagement />
               </TabsContent>
 
               <TabsContent value="clients">
-                <Card className="shadow-card">
-                  <CardHeader>
-                    <CardTitle>Client Management</CardTitle>
-                    <CardDescription>View and manage your clients</CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-muted-foreground">Client management interface coming soon...</p>
-                  </CardContent>
-                </Card>
+                <ClientsManagement />
               </TabsContent>
 
               <TabsContent value="requests">
-                <Card className="shadow-card">
-                  <CardHeader>
-                    <CardTitle>Service Requests</CardTitle>
-                    <CardDescription>Manage incoming service requests</CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-muted-foreground">Request management interface coming soon...</p>
-                  </CardContent>
-                </Card>
+                <RequestsManagement />
               </TabsContent>
             </Tabs>
           </>
